@@ -15,14 +15,16 @@ setwd("C:/Users/Angie Hernandez/Documents/Programacion en R/")
 liquen <- read.csv("liquen.csv")
 
 ## ver los datos 
+
 head(liquen)
+
     Sitio    Sustrato área..cm2.
-1       1   saxicola        15.2
-2       1   saxicola        15.2
-3       1   saxicola        13.2
-4       1   saxicola         8.0
-5       1   saxicola         9.1
-6       1   saxicola         9.6
+##1       1   saxicola        15.2
+##2       1   saxicola        15.2
+##3       1   saxicola        13.2
+##4       1   saxicola         8.0
+##5       1   saxicola         9.1
+##6       1   saxicola         9.6
 .....
 
 
@@ -70,8 +72,8 @@ abline(v= mean(liquen$área..cm2.[Sustrato=="corticicola"]), col = "blue")
 
 summary(liquen$área..cm2.[Sustrato=="corticicola"])
 
- Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    7.1    11.9    14.5    15.8    18.9    37.4 
+ ##Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ #   7.1    11.9    14.5    15.8    18.9    37.4 
 
 # líquenes saxícolas 
 
