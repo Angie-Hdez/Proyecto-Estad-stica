@@ -43,6 +43,8 @@ qqPlot(liquen$área..cm2.[Sustrato=="saxicola "], main="SAXÍCOLA ", ylab= "Áre
 qqPlot(liquen$área..cm2.[Sustrato=="corticicola"],main="CORTICÍCOLA", ylab= "Área (cm2)", xlab = "Cuantiles Norm")
 [1]  3 11
 
+![qqplotcor](https://user-images.githubusercontent.com/55472011/77825667-c0e98e00-70d8-11ea-90e8-84e2d9e0dff6.png)
+
 # Histogramas de frecuencia
 
 hist(liquen$área..cm2.[Sustrato=="saxicola "], main="SAXÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "dodgerblue2") 
