@@ -259,5 +259,7 @@ legend(x = "topright",c("Density plot", "Mean", "Median"),col = c("red", "green4
 boxplot(liquen$área..cm2.~liquen$Sustrato, col= c("chartreuse2", "gold1"), names= c("Corticícola","Saxícola"), main="Tamaño de líquenes foliosos",xlab= "Sustrato",ylab= "Área (cm2)")
 mtext(x = 1.1,y=20, "t = 6.6764, df = 137.86, p-value < 0.05 ",side=3)
 
+![boxplotliquenes](https://user-images.githubusercontent.com/55472011/77826263-59354200-70dc-11ea-9162-caa47986b3c4.png)
+
 ## De acuerdo con los resultados obtenidos de la prueba T-test se concluye que la media del área de los líquenes foliosos corticícolas 
 ## es mayor que el área de los líquenes foliosos saxícolas.
