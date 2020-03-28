@@ -82,6 +82,8 @@ kurtosis(liquen$área..cm2.[Sustrato=="saxicola "])
 plot(density(liquen$área..cm2.[Sustrato=="saxicola "]), main= 'SAXÍCOLA', ylab = "Densidad", col = "RED", lwd = 3)
 abline(v= mean(liquen$área..cm2.[Sustrato=="saxicola "]), col = "blue")
 
+![plotdenssax](https://user-images.githubusercontent.com/55472011/77826038-073fec80-70db-11ea-85d4-b4df4f185401.png)
+
 summary(liquen$área..cm2.[Sustrato=="saxicola "])
 
 Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
