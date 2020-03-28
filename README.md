@@ -49,7 +49,7 @@ qqPlot(liquen$área..cm2.[Sustrato=="corticicola"],main="CORTICÍCOLA", ylab= "�
 
 hist(liquen$área..cm2.[Sustrato=="saxicola "], main="SAXÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "dodgerblue2") 
 
-![qqplotcor](https://user-images.githubusercontent.com/55472011/77825667-c0e98e00-70d8-11ea-90e8-84e2d9e0dff6.png)
+![histsax](https://user-images.githubusercontent.com/55472011/77825762-6d2b7480-70d9-11ea-9399-5bd48cac441b.png)
 
 
 hist(liquen$área..cm2.[Sustrato=="corticicola"], main="CORTICÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "dodgerblue2")
