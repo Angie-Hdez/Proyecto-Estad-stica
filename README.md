@@ -38,6 +38,8 @@ attach(liquen)
 qqPlot(liquen$área..cm2.[Sustrato=="saxicola "], main="SAXÍCOLA ", ylab= "Área (cm2)", xlab = "Cuantiles Norm")
 [1] 10 28
 
+![qqplotsax](https://user-images.githubusercontent.com/55472011/77813230-08d6c980-7075-11ea-836e-475c38e01ad7.png)
+
 qqPlot(liquen$área..cm2.[Sustrato=="corticicola"],main="CORTICÍCOLA", ylab= "Área (cm2)", xlab = "Cuantiles Norm")
 [1]  3 11
 
