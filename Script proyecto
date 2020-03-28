@@ -220,7 +220,7 @@ mean of x mean of y
 
  #Histograma con líneas de densidad, media y mediana para sustrato "roca"
 
-hist(liquen$área..cm2.[Sustrato=="saxicola "],prob= T,main="SAXÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "gold1")
+hist(liquen$área..cm2.[Sustrato=="saxicola "],prob= T,main="SAXÍCOLA", ylab= "Densidad", xlab = "Área (cm2)", col= "gold1")
 lines(density(liquen$área..cm2.[Sustrato=="saxicola "]),lwd= 2,col= "red")
 
 abline(v = mean(liquen$área..cm2.[Sustrato=="saxicola "]),col = "green4",lwd = 2)
@@ -229,7 +229,7 @@ legend(x = "topright",c("Density plot", "Mean", "Median"),col = c("red", "green4
 
 #Histograma con líneas de densidad, media y mediana para sustrato "corteza"
 
-hist(liquen$área..cm2.[Sustrato=="corticicola"],prob= T,main="CORTICÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "chartreuse2")
+hist(liquen$área..cm2.[Sustrato=="corticicola"],prob= T,main="CORTICÍCOLA", ylab= "Densidad", xlab = "Área (cm2)", col= "chartreuse2")
 lines(density(liquen$área..cm2.[Sustrato=="corticicola"]),lwd= 2,col= "red")
 
 abline(v = mean(liquen$área..cm2.[Sustrato=="corticicola"]),col = "green4",lwd = 2)
