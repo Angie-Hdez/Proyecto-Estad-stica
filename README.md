@@ -186,6 +186,9 @@ D = 0.086682, p-value = 0.2155
 
 qqPlot(log(liquen$área..cm2.[Sustrato=="saxicola "]), main="SAXÍCOLA ", ylab= "Área (cm2)", xlab = "Cuantiles Norm")
 
+![qqtranssax](https://user-images.githubusercontent.com/55472011/77826120-8e8d6000-70db-11ea-9b0c-072904cb5b45.png)
+
+
 # Evaluando Homgeneidad de varianzas después de transformacion de los datos 
 
 leveneTest(log(área..cm2.+1) ~Sustrato,center=mean)
