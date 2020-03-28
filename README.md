@@ -173,6 +173,8 @@ D = 0.067433, p-value = 0.5992
 
 qqPlot(log(liquen$área..cm2.[Sustrato=="saxicola "]), main="CORTICÍCOLA", ylab= "Área (cm2)", xlab = "Cuantiles Norm")
 
+![qqtranscot](https://user-images.githubusercontent.com/55472011/77826116-89c8ac00-70db-11ea-84d3-7f15024933c1.png)
+
 
 lillie.test(log(liquen$área..cm2.[Sustrato=="saxicola "]))
 
