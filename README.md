@@ -252,6 +252,8 @@ abline(v = mean(liquen$área..cm2.[Sustrato=="corticicola"]),col = "green4",lwd 
 abline(v = median(liquen$área..cm2.[Sustrato=="corticicola"]),col = "blue",lwd = 2)
 legend(x = "topright",c("Density plot", "Mean", "Median"),col = c("red", "green4", "blue"),lwd = c(2, 2, 2))
 
+![histcomcor](https://user-images.githubusercontent.com/55472011/77826260-520e3400-70dc-11ea-8090-0bf0059704d6.png)
+
 ## Presentando los resultados en un boxplot
 
 boxplot(liquen$área..cm2.~liquen$Sustrato, col= c("chartreuse2", "gold1"), names= c("Corticícola","Saxícola"), main="Tamaño de líquenes foliosos",xlab= "Sustrato",ylab= "Área (cm2)")
