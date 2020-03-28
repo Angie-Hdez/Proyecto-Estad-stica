@@ -51,7 +51,10 @@ hist(liquen$área..cm2.[Sustrato=="corticicola"], main="CORTICÍCOLA", ylab= "Fr
 # líquenes corticícolas 
 
 skewness(liquen$área..cm2.[Sustrato=="corticicola"])
+[1] 1.118797
+
 kurtosis(liquen$área..cm2.[Sustrato=="corticicola"])
+[1] 4.756139
 
 plot(density(liquen$área..cm2.[Sustrato=="corticicola"]), main= 'CORTICÍCOLA', ylab = "Densidad", col = "RED", lwd = 3)
 abline(v= mean(liquen$área..cm2.[Sustrato=="corticicola"]), col = "blue")
@@ -64,8 +67,10 @@ summary(liquen$área..cm2.[Sustrato=="corticicola"])
 # líquenes saxícolas 
 
 skewness(liquen$área..cm2.[Sustrato=="saxicola "])
-kurtosis(liquen$área..cm2.[Sustrato=="saxicola "])
+[1] 0.8215561
 
+kurtosis(liquen$área..cm2.[Sustrato=="saxicola "])
+[1] 3.227287
 
 plot(density(liquen$área..cm2.[Sustrato=="saxicola "]), main= 'SAXÍCOLA', ylab = "Densidad", col = "RED", lwd = 3)
 abline(v= mean(liquen$área..cm2.[Sustrato=="saxicola "]), col = "blue")
