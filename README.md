@@ -66,6 +66,8 @@ kurtosis(liquen$área..cm2.[Sustrato=="corticicola"])
 plot(density(liquen$área..cm2.[Sustrato=="corticicola"]), main= 'CORTICÍCOLA', ylab = "Densidad", col = "RED", lwd = 3)
 abline(v= mean(liquen$área..cm2.[Sustrato=="corticicola"]), col = "blue")
 
+![plotdencor](https://user-images.githubusercontent.com/55472011/77826034-0018de80-70db-11ea-85c6-fff3196c9cc1.png)
+
 summary(liquen$área..cm2.[Sustrato=="corticicola"])
 
  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
