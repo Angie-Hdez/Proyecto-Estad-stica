@@ -54,6 +54,8 @@ hist(liquen$área..cm2.[Sustrato=="saxicola "], main="SAXÍCOLA", ylab= "Frecuen
 
 hist(liquen$área..cm2.[Sustrato=="corticicola"], main="CORTICÍCOLA", ylab= "Frecuencia", xlab = "Área (cm2)", col= "dodgerblue2")
 
+![histcor](https://user-images.githubusercontent.com/55472011/77825765-73b9ec00-70d9-11ea-8a33-5ee819eef07a.png)
+
 ## Asimetría y curtosis 
 
 # líquenes corticícolas 
