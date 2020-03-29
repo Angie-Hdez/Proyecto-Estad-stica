@@ -243,7 +243,9 @@ abline(v = mean(liquen$área..cm2.[Sustrato=="saxicola "]),col = "green4",lwd = 
 abline(v = median(liquen$área..cm2.[Sustrato=="saxicola "]),col = "blue",lwd = 2)
 legend(x = "topright",c("Density plot", "Mean", "Median"),col = c("red", "green4", "blue"),lwd = c(2, 2, 2))
 
-![histcomsax](https://user-images.githubusercontent.com/55472011/77826256-4ae72600-70dc-11ea-850b-a6e284f5e31d.png)
+
+![arrreglado](https://user-images.githubusercontent.com/55472011/77840072-a9e28480-7148-11ea-93bc-a3ca588778ce.png)
+
 
 #Histograma con líneas de densidad, media y mediana para sustrato "corteza"
 
