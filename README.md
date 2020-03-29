@@ -256,7 +256,8 @@ abline(v = mean(liquen$área..cm2.[Sustrato=="corticicola"]),col = "green4",lwd 
 abline(v = median(liquen$área..cm2.[Sustrato=="corticicola"]),col = "blue",lwd = 2)
 legend(x = "topright",c("Density plot", "Mean", "Median"),col = c("red", "green4", "blue"),lwd = c(2, 2, 2))
 
-![histcomcor](https://user-images.githubusercontent.com/55472011/77826260-520e3400-70dc-11ea-8090-0bf0059704d6.png)
+![corarre](https://user-images.githubusercontent.com/55472011/77840077-b2d35600-7148-11ea-960c-daa41f1fe4dc.png)
+
 
 ## Presentando los resultados en un boxplot
 
